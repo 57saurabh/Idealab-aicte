@@ -3,7 +3,9 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
+
+# Assets
+/src/Components/assets/video/
 
 # testing
 /coverage

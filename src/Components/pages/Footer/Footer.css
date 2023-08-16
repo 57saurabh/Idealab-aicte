@@ -1,0 +1,254 @@
+.container-footer{
+    background: var(--text-1);
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+   
+    
+}
+.container-footer a{
+    text-decoration: none;
+    color: var(--black-bg);
+}
+.row-upper-f{
+    margin: 0.5em 0.5em 0 0.5em;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    /* padding: 20px 0 0; */
+    text-align: center;
+}
+.col-logo{
+    margin:-1rem auto 1rem;
+    width: 200px;
+}
+.col-logo span{
+    padding: 0;
+    margin: auto;
+}
+.col-logo img{
+    width: 100%;
+    
+}
+.inif {
+margin:auto;
+}
+.col-upper-f{
+    color: var(--black-bg);
+    padding: 10px 30px;
+    margin: 10px;
+    text-align: left;
+}
+.subscribe-btn-f{
+    border: none;
+    background-color: var(--primary-text);
+    font-size: 18px;
+    position: absolute;
+    top: 17px;
+    right: 0;
+    /* padding: 3px; */
+    /* color: #fff; */
+}
+.col-upper-f span .form-flex{
+    justify-content: space-between;
+    /* border-bottom: 2px solid var(--text-1); */
+    padding: 0 0 10px 0;
+    position: relative;
+}
+/* .col-upper-f input{
+    width: 80%;
+    margin-top: 18px;
+    border: none;
+    background: #fff;
+    font-size: 18px;
+  
+    color: var(--text-1);
+} */
+
+.col-upper-f span{
+    margin-top: 0.3rem ;
+    padding: .2rem;
+    
+}
+.col-upper-f span .form-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+}
+.col-upper-f span .form-flex input{
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 18px;
+    padding: .2rem;
+    padding-left: .5rem;
+    border: none;
+    background: #fff;
+    font-size: 18px;
+    color: var(--black-bg);
+}
+.col-upper-f span .form-flex input:focus{
+    outline: none;
+}
+.col-upper-f span .form-flex button{
+    border: none;
+    width: 32px;
+    height: 32px;
+    background-color: var(--black-bg);
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    right: 0;
+    border-radius: 50%;
+    color: var(--bg-primary);
+    cursor: pointer;
+    
+}
+
+/* .col-upper-f span .form-flex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    padding: 0 0 10px 0;
+} */
+.col-upper-f p{
+    font-size: .7rem;
+    color: var(--black-bg);
+    font-weight: 600;
+    margin: auto;
+}
+.col-upper-f h2{
+    line-height: 1.2;
+    font-size: 1rem;
+    /* margin: .3rem; */
+}
+
+/* .row-bottom-f{
+    margin: 0.5em;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    padding: 20px 0 0;
+    text-align: center;
+} */
+.col-bottom-f-division{
+    display: flex;
+    flex-direction: column;
+    
+}
+.col-bottom-f{
+    color: var(--black-bg);
+    padding: 10px 30px;
+    /* margin: 10px; */
+    margin: auto;
+}
+.col-bottom-f p{
+    
+    /* padding: 10px 30px; */
+    margin: 10px;
+    text-align: center;
+}
+
+.permalinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    margin: 1rem auto 1rem;
+    padding: 0  ;
+}
+.col-bottom-f ul{
+    list-style-type: none;
+}
+.col-bottom-f ul li{
+    transition: var(--transition);
+}
+.col-bottom-f ul li:hover{
+    transform: scale(1.1);    
+}
+
+.col-bottom-f h4{
+    font-size: 1rem;
+    text-align: center;
+}
+.col-bottom-f p{
+    padding: 10px 0;
+    font-size: .7rem;
+}
+.col-bottom-f span{
+    font-size: 1.8rem;
+    margin: .3rem;
+    
+}
+.col-bottom-f p  span{
+    /* padding: 10px 0; */
+    font-size: .7rem;
+}
+.col-bottom-f p ul li{
+    margin: 1rem auto;
+}
+
+@media screen and (max-width:1024px) {
+    .row-upper-f{
+        grid-template-columns: 1fr 1fr;
+        gap:1.2rem
+       
+    }    
+    .row-bottom-f{
+        grid-template-columns: 1fr 1fr;
+        gap:1.2rem
+       
+    }    
+    .col-upper-f p{
+        font-size: 1.2rem;
+    }
+    .col-upper-f h2{
+        font-size: 1.5rem;
+    }
+    .subscribe-btn{
+        font-size: 15px;
+        /* padding: 3px; */
+        /* color: #fff; */
+    }
+    .col-upper-f input{
+        margin-top: 1rem;
+        border: none;
+        background:#fff;
+        font-size: 12px;
+        color: var(--text-1);
+    }
+    .col-upper-f span{
+        width: 70%;
+    }
+    .col-upper-f span .form-flex{
+        justify-content: space-between;
+        border-bottom: 2px solid var(--text-1);
+        padding: 0 0 10px 0;
+    }
+    .subscribe-btn-f{
+     top: 10px;
+        right: 0;
+        /* padding: 3px; */
+        /* color: #fff; */
+    }
+
+} 
+    
+    /* ======== MEDIA QUERIES(Small DEVICES)====== */
+    
+      @media screen and (max-width:600px) {
+        .row-upper-f{
+        grid-template-columns: 1fr;
+        gap:1rem;
+    }
+      
+        .row-bottom-f{
+        grid-template-columns: 1fr;
+        gap:1rem;
+    }
+    .subscribe-btn-f{
+        top: 10px;
+           right: 0;
+           /* padding: 3px; */
+           /* color: #fff; */
+       }
+    }

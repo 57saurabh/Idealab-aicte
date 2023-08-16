@@ -1,6 +1,10 @@
 @import url(./Components/Utils/css/commoncss.css);
+@import url(./Components/Utils/css/variable.css);
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+
 }

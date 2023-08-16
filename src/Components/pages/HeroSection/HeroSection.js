@@ -10,7 +10,7 @@ function HeroSection() {
         Your browser does not support the video tag.
       </video>
 
-      <div className="content">
+      <div className="contentbox">
         <div className="upper">
           <h1>AICTE -Idea Lab</h1>
           <h1>

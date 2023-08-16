@@ -1,6 +1,7 @@
 import React from 'react'
 import TrainingImgCollage from '../../assets/SliderImg/Picture4.png'
 import './Training.css'
+// import Slider from '../../Utils/Slider/Slider'
 
 
 function TrainingProgram() {

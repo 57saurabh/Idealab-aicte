@@ -3,32 +3,53 @@ import './Connectus.css'
 import school from "../../assets/school.png";
 
 function ConnectUs() {
+
+    const list =[
+        {
+            "type": "Schools",
+            "imageSrc": school,
+            "heading": "Schools"
+        },
+        {
+            "type": "Colleges",
+            "imageSrc": school,
+            "heading": "Colleges"
+        },
+        {
+            "type": "Polytechnic",
+            "imageSrc": school,
+            "heading": "Polytechnic"
+        },
+        {
+            "type": "Industries",
+            "imageSrc": school,
+            "heading": "Industries"
+        },
+        {
+            "type": "StartUps",
+            "imageSrc": school,
+            "heading": "StartUps"
+        }
+    ]
+    
+
   return (
     <div className='connectus-container'>
         <h1 className='heading'>Who Can Connect To Us?</h1>
         <div className='connectus-content'>
-                <div className="items">
-                    <img className='item-img' src={school} alt="" />
-                    <h2 className='item-heading'>Schools</h2>
-                </div>
-                <div className="items">
-                    <img className='item-img' src={school} alt="" />
-                    <h2 className='item-heading'>Colleges</h2>
-                </div>
-                <div className="items">
-                    <img className='item-img' src={school} alt="" />
-                    <h2 className='item-heading'>Polytechnic</h2>
-                </div>
-                <div className="items">
-                    <img className='item-img' src={school} alt="" />
-                    <h2 className='item-heading'>Industires</h2>
-                </div>
-                <div className="items">
-                    <img className='item-img' src={school} alt="" />
-                    <h2 className='item-heading'>StartUps</h2>
-                </div>
-                
-                
+
+                {
+                    list.map((item, index) => {
+                        return(
+                            <div className="items" key={item.type}>
+                                <img className='item-img' src={item.imageSrc} alt="" />
+                                <h2 className='item-heading'>{item.heading}</h2>
+                            </div>
+                        )
+                    }
+                    )
+                }
+ 
             </div>
     </div>
   )

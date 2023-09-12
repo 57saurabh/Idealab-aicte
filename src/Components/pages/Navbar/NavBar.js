@@ -25,11 +25,11 @@ function NavBar() {
           <li className="dropdown">
             <Link to="/infrastructure" className="dropdown-toggle">
               Infrastructure 
-              <div className="dropdown-menu">
+              {/* <div className="dropdown-menu">
                 <Link to="/infrastructure-3dprinter">3D Printer</Link>
                 <Link to="/infrastructure-3dscanner">3D Scanner</Link>
               
-              </div> 
+              </div>  */}
             </Link>
           </li>
           <li className="dropdown">
@@ -55,7 +55,7 @@ function NavBar() {
             </Link>
           </li>
           <li className="dropdown">
-            <Link to="/" className="dropdown-toggle">
+            <Link to="/team" className="dropdown-toggle">
               Team 
               <div className="dropdown-menu" style={{color:"#4682A9"}}>
                 <Link to="#">Coordinators</Link>

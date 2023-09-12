@@ -1,9 +1,4 @@
-.programmes-container {
-    width: 100%;
-   margin-top: 8rem;  
-    
-  }
-  .programmessection{
+.programmessection{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

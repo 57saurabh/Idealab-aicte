@@ -33,7 +33,8 @@ function Programmes() {
           <img src={img1} alt="" />
         </div>
         <div className="header-text">
-          <h1 className="heading">Our Services</h1>
+          <h1 className="heading">Our Programmes
+</h1>
         </div>
       </div>
       <div className="bodycontainer">

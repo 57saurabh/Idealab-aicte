@@ -23,7 +23,7 @@ const printersData = [
 
 function Infrastructure() {
   return (
-    <div className="infra-container">
+    <div className="container">
       <div className="header-container">
         <div className="headerimg">
           <img src={printerimg} alt="" />

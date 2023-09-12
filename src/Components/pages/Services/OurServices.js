@@ -32,7 +32,7 @@ const serviceData = [
 
 function OurServices() {
   return (
-    <div className='services-container' >
+    <div className='container' >
     <div className="header-container">
       <div className="headerimg">
         <img src={servicesimg} alt="" />

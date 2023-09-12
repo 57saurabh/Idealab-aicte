@@ -7,6 +7,7 @@ import Footer from '../pages/Footer/Footer';
 import Infrastructure from '../pages/Infrastructure/Infrastructure';
 import OurServices from '../pages/Services/OurServices';
 import Programmes from '../pages/Programmes/Programmes';
+import Teams from '../pages/Team/Teams';
 
 function MainRoutes() {
   return (
@@ -17,6 +18,7 @@ function MainRoutes() {
     <Route path="/infrastructure" element={<Infrastructure/>} />
     <Route path='/services' element={<OurServices/>}/>
     <Route path='/programmes' element={<Programmes/>}/>
+    <Route path='/team' element={<Teams/>}/>
       </Routes>
       <Footer />
     </Router>

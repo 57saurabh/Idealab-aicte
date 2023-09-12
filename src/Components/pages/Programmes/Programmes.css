@@ -1,0 +1,23 @@
+.programmes-container {
+    width: 100%;
+   margin-top: 8rem;  
+    
+  }
+  .programmessection{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+  }
+  .section {
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .programmes-icon {
+    font-size: 30px;
+    
+  }
+  

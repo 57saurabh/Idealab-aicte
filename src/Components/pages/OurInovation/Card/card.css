@@ -24,6 +24,9 @@
     transform: translateY(100%);
     transition: transform 0.3s;
   }
+  .card-content h2{
+    padding: 1rem;
+  }
   
   
 

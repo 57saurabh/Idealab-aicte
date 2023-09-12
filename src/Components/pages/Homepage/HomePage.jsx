@@ -3,7 +3,7 @@ import HeroSection from '../HeroSection/HeroSection'
 import ConnectUs from '../ConnectUs/ConnectUs'
 import TrainingProgram from '../TrainingProgram/TrainingProgram'
 import OurInnovation from '../OurInovation/OurInnovation'
-import Footer from '../Footer/Footer'
+// import Footer from '../Footer/Footer'
 // import NavBar from '../Navbar/NavBar'
 
 function HomePage() {
@@ -14,7 +14,7 @@ function HomePage() {
     <ConnectUs/>
     <TrainingProgram/>
     <OurInnovation/>
-    <Footer/>
+   
 
     </>
   )

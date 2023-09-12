@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <div className="Hero-container">
       <video autoPlay loop muted className="background-video">
-        <source src={introvid} type="video/mp4" />
+        <source src='https://abes.ac.in/images/IntrovideoIdeaLab.mp4' type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

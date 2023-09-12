@@ -35,7 +35,7 @@ function ConnectUs() {
 
   return (
     <div className='connectus-container'>
-        <h1 className='heading'>Who Can Connect To Us?</h1>
+        <h1 className='heading mb2'>Who Can Connect To Us?</h1>
         <div className='connectus-content'>
 
                 {

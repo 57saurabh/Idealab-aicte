@@ -7,7 +7,7 @@ import './Training.css'
 function TrainingProgram() {
   return (
     <div className='training-container'>
-      <h1 className='heading' style={{color:'#fff'}}>Our Training Programs</h1>
+      <h1 className='heading mb2' style={{color:'#fff'}}>Our Training Programs</h1>
       <div className='training'>
       <div className="training-content ">
         <ul>

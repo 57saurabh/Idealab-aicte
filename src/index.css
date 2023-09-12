@@ -1,5 +1,6 @@
 @import url(./Components/Utils/css/commoncss.css);
 @import url(./Components/Utils/css/variable.css);
+@import url(./Components/Utils//css/font.css);
 *{
   padding: 0;
   margin: 0;

@@ -7,7 +7,7 @@ import React from 'react'
 function OurInnovation() {
   return (
     <div className='OurInnovation-container'>
-      <h1 className='heading' >Our Innovations</h1>
+      <h1 className='heading mb2' >Our Innovations</h1>
         
         <div className="card-container">
       {carddata.map((card) => (

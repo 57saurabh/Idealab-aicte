@@ -23,17 +23,17 @@ function NavBar() {
             <Link to="/">Home</Link>
           </li>
           <li className="dropdown">
-            <Link to="/" className="dropdown-toggle">
+            <Link to="/infrastructure" className="dropdown-toggle">
               Infrastructure 
               <div className="dropdown-menu">
-                <Link to="#">3D Printer</Link>
-                <Link to="#">3D Scanner</Link>
+                <Link to="/infrastructure-3dprinter">3D Printer</Link>
+                <Link to="/infrastructure-3dscanner">3D Scanner</Link>
               
               </div> 
             </Link>
           </li>
           <li className="dropdown">
-            <Link to="/" className="dropdown-toggle">
+            <Link to="/services" className="dropdown-toggle">
               Services 
               <div className="dropdown-menu">
                 <Link to="#">Prototyping Development</Link>
@@ -45,7 +45,7 @@ function NavBar() {
             </Link>
           </li>
           <li className="dropdown">
-            <Link to="/" className="dropdown-toggle">
+            <Link to="/programmes" className="dropdown-toggle">
               Programmes 
               <div className="dropdown-menu">
                 <Link to="#">Item 1.1</Link>

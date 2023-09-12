@@ -12,7 +12,7 @@ function HeroSection() {
 
       <div className="contentbox">
         <div className="upper">
-          <h1>AICTE -Idea Lab</h1>
+          <h1>AICTE -IDEA Lab</h1>
           <h1>
             ABES Engineering College,
             <br />

@@ -1,5 +1,5 @@
 import React from "react";
-import introvid from "../../assets/video/IntrovideoIdeaLab_1.mp4";
+// import introvid from "../../assets/video/IntrovideoIdeaLab_1.mp4";
 import "./HeroSection.css";
 
 function HeroSection() {

@@ -24,7 +24,7 @@ function Footer() {
   };
 
   return (
-    <section id="footer">
+    <section className="footer">
       <div className="container-footer">
         <div className="row-upper-f">
           

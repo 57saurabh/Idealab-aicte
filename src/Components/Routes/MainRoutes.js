@@ -8,6 +8,8 @@ import Infrastructure from '../pages/Infrastructure/Infrastructure';
 import OurServices from '../pages/Services/OurServices';
 import Programmes from '../pages/Programmes/Programmes';
 import Teams from '../pages/Team/Teams';
+import Login from '../pages/Authentication/Login/Login';
+import JoinUs from '../pages/Authentication/JoinUs/JoinUs';
 
 function MainRoutes() {
   return (
@@ -19,7 +21,10 @@ function MainRoutes() {
     <Route path='/services' element={<OurServices/>}/>
     <Route path='/programmes' element={<Programmes/>}/>
     <Route path='/team' element={<Teams/>}/>
+      <Route path='/login' element ={<Login/>}/>
+      <Route path='/joinus' element ={<JoinUs/>}/>
       </Routes>
+
       <Footer />
     </Router>
   );

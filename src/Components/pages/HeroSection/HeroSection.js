@@ -1,6 +1,7 @@
 import React from "react";
 // import introvid from "../../assets/video/IntrovideoIdeaLab_1.mp4";
 import "./HeroSection.css";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
@@ -20,8 +21,8 @@ function HeroSection() {
           </h1>
         </div>
         <div className="lower">
-          <button className="hero">Want to Develop Something?</button>
-          <button className="hero">Already Develop, Want Assistance?</button>
+          <Link to='/login' className="hero">Want to Develop Something?</Link>
+          <Link to='/login' className="hero">Already Develop, Want Assistance?</Link>
         </div>
       </div>
     </div>

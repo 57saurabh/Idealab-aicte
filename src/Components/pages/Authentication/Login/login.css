@@ -1,0 +1,180 @@
+.joincontiner{
+    padding-top:200px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+}
+.login-form-wrap h2 {
+    font-weight: 800;
+    text-align: center;
+    padding:1rem ;
+  }
+  
+  .login-form-wrap .login-form p {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  .login-form-wrap {
+    background-color: #fff;
+    width: 35%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form {
+    padding: 0 60px;
+  }
+  
+  .login-form input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="email"] {
+    width: 100%;
+    padding: 0 0 0 10px;
+    margin: 0;
+    color: #8a8b8e;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: relative;
+    display: inline-block;
+    background: none;
+  }
+  .login-form input[type="text"]:focus,
+  .login-form input[type="email"]:focus {
+    border-color: #3ca9e2;
+  }
+  .login-form input[type="text"]:focus:invalid,
+  .login-form input[type="email"]:focus:invalid {
+    color: #cc1e2b;
+    border-color: #cc1e2b;
+  }
+  .login-form input[type="text"]:valid ~ .validation,
+  .login-form input[type="email"]:valid ~ .validation {
+    display: block;
+    border-color: #0C0;
+  }
+  .login-form input[type="text"]:valid ~ .validation span,
+  .login-form input[type="email"]:valid ~ .validation span {
+    background: #0C0;
+    position: absolute;
+    border-radius: 6px;
+  }
+  .login-form input[type="text"]:valid ~ .validation span:first-child,
+  .login-form input[type="email"]:valid ~ .validation span:first-child {
+    top: 30px;
+    left: 14px;
+    width: 20px;
+    height: 3px;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .login-form input[type="text"]:valid ~ .validation span:last-child,
+  .login-form input[type="email"]:valid ~ .validation span:last-child {
+    top: 35px;
+    left: 8px;
+    width: 11px;
+    height: 3px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+  
+  .login-form input[type="submit"] {
+    border: none;
+    display: block;
+    background-color: #3ca9e2;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+  }
+  .login-form input[type="submit"]:hover {
+    background-color: #329dd5;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  .create-account-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeedf1;
+    color: #8a8b8e;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0 0 4px 4px;
+  }
+  .create-account-wrap a{
+    text-decoration: none;
+    color: var(--primary-text);
+  }
+  .create-account-wrap a:hover{
+    text-decoration: none;
+    font-weight: 600;
+    color: #3ca9e2;
+  }
+ 
+
+  /* Styles for screens with a maximum width of 1200px */
+@media (max-width: 1200px) {
+     .container {
+      width: 80%; /* Adjust the container width as needed */
+    }
+
+    .login-form-wrap {
+        background-color: #fff;
+        width: 80%;
+        margin: 0px auto;
+       
+      }
+    
+    /* You can add more styles specific to this screen size */
+  }
+  
+  /* Styles for screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .container {
+        width: 80%; /* Adjust the container width as needed */
+      }
+  .login-form-wrap {
+    background-color: #fff;
+    width: 100%;
+    margin: 0px auto;
+   
+  }
+  
+    /* You can modify other styles, such as font size or padding, as needed */
+    .login-form-wrap h2 {
+      font-size: 24px; /* Example font size adjustment */
+    }
+    
+    /* You can add more styles specific to this screen size */
+  }
+  

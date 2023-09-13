@@ -8,8 +8,10 @@
 
 }
 .card-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
     margin: auto;
     gap: 5%;
     padding: 2rem;

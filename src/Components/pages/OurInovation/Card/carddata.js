@@ -1,4 +1,4 @@
-import img1 from '../../../assets/SliderImg/Picture4.png'
+import img1 from '../../../assets/img/services.jpg'
 
 export const carddata =[
     {

@@ -31,7 +31,7 @@ function Footer() {
           <div className="col-upper-f">
             <p>Get Newsletters from</p>
             <h2>
-              AICTE-IDEA lab,
+              AICTE IDEA lab,
               <br /> ABES Engineering College{" "}
             </h2>
             <span>

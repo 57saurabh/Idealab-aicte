@@ -1,0 +1,131 @@
+/* StudentDashboard.css */
+
+.student-dashboard {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; Adjust the height as needed */
+}
+
+.student-card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+}
+
+.student-details {
+    flex: 1;
+}
+
+.student-details h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.student-details p {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.logout-button {
+    background-color: #f44336; /* Red background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.logout-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+.report-section {
+    margin: 2rem;
+    background-color: #f9f9f9; /* Light gray background for the report section */
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    /* max-width: 600px; Limit the width of the report section */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.report-section h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; 
+}
+
+.submit-button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    margin-top: 10px; /* Add spacing between textarea and button */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* StudentDashboard.css */
+
+/* ... Previous styles ... */
+
+.report-history {
+    background-color: #f9f9f9; /* Light gray background for the report history section */
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 2rem;
+    /* max-width: 600px; Limit the width of the report history section */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.report-history h2 {
+    font-size: 34px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc; /* Use bullets for the list items */
+    padding-left: 20px; /* Add indentation for the list items */
+}
+
+li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Additional styling for the Submit Report button */
+.submit-button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    margin-top: 10px; /* Add spacing between textarea and button */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

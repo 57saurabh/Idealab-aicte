@@ -14,15 +14,39 @@
     
 }
 .training-content{
+    position: relative;
+    display: flex;
+    /* flex:2 30px; */
+    flex-direction: column;
+    align-items:center;
     margin:1rem;
     /* color: white; */
 }
-.training-content ul li{
-    list-style: disc;
-    margin: 1rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-}
+.training-items {
+    background: linear-gradient(0deg, rgba(132,207,255,1) 0%, rgba(72,171,236,1) 74%);
+    text-align: center;
+    border: 1px solid none;
+    padding: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* margin: auto; */
+    margin:20px;
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .div1, .div2{
+    display: flex;
+    flex-direction: row;
+  }
+  .div1{
+   /* transform: translateX(80px); */
+  }
+
 .trainingimgcollage{
     display: flex;
     justify-content: center;
@@ -39,6 +63,9 @@
 }
 
 @media (max-width: 1200px) {
+    .training-items.mobile{
+        display: none;
+    }
     .training-container{
         padding-top: 1rem/* 48px */;
         padding-bottom: 1rem/* 48px */;
@@ -47,8 +74,24 @@
         flex-direction: column;
     }
     .training-content{
-        margin: 1rem;
+        /* margin: .5rem; */
     }
+    
+    .training-items {
+
+        padding: 30px;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        margin:10px;
+        font-size: 14px;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+      }
+    
     .trainingimgcollage{
         margin: auto;
         height: 300px;
@@ -60,9 +103,9 @@
        height: 100%;
        width: 100%;
     }
-    .training-content ul li{
+    /* .training-content ul li{
         font-size: 1.2rem;
-    }
+    } */
 }
 @media (max-width: 768px) {
     .training-container{
@@ -73,12 +116,12 @@
         flex-direction: column;
     }
     .training-content{
-        margin: 1rem;
+        margin: 0rem;
         /* font-size: .8rem; */
     }
-    .training-content ul li{
+    /* .training-content ul li{
         font-size: .8rem;
-    }
+    } */
     .trainingimgcollage{
         width: 250px;
         height: 250px;
@@ -91,7 +134,7 @@
         height: 100%;
         width: 100%;
     }
-    .training-content ul li{
+    /* .training-content ul li{
         font-size: 1.2rem;
-    }
+    } */
 }

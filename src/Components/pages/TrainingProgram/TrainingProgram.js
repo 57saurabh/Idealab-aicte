@@ -11,7 +11,19 @@ function TrainingProgram() {
       </h1>
       <div className="training">
         <div className="training-content ">
-          <ul style={{textAlign:'left'}}>
+          <div className="div1">
+         <div className="training-items" style={{fontSize:'34px'}}>FDP</div>
+          <div className="training-items">School Open Day</div>
+          <div className="training-items ">Bootcamps</div>
+          </div>
+          <div className="div2">
+          <div className="training-items">Ideation Workshop</div>
+          <div className="training-items ">Product Devlopment Program</div>
+          </div>
+        
+          
+
+          {/* <ul style={{textAlign:'left'}}>
             <li> Faculty Development Programmes </li>
             <li> Professional Skilling Programmes </li>
             <li> Skilling Programmes </li>
@@ -22,7 +34,7 @@ function TrainingProgram() {
             <li> Ideation workshops </li>
             <li> Awareness workshops for Industry </li>
             <li> Projects by school students </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="trainingimgcollage">
           <img src={TrainingImgCollage} alt="TrainingImgCollage" />

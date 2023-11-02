@@ -1,10 +1,10 @@
 import React from 'react'
 import './Connectus.css'
-import school from "../../assets/img/school.jpg";
-import colleges from  '../../assets/img/college.jpg'
+import school from "../../assets/ICONS/School.png";
+import colleges from  '../../assets/ICONS/Institution.png'
 import polytechnic from  '../../assets/img/polytechic.jpg'
-import startup from  '../../assets/img/startup.jpg'
-import industries from  '../../assets/img/industries.jpg'
+import startup from  '../../assets/ICONS/Startup.png'
+import industries from  '../../assets/ICONS/Industry.png'
 function ConnectUs() {
 
     const list =[
@@ -18,11 +18,7 @@ function ConnectUs() {
             "imageSrc": colleges,
             "heading": "Colleges"
         },
-        {
-            "type": "Polytechnic",
-            "imageSrc": polytechnic,
-            "heading": "Polytechnic"
-        },
+       
         {
             "type": "Industries",
             "imageSrc": industries,

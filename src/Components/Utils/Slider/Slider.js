@@ -14,24 +14,14 @@ const Slider = ({ images, interval }) => {
 
   return (
     <div className="slider">
-      {
-        images.map((item,index) => (
-          <div key={index} className={`slider-item ${index === currentImage ? 'active' : ''}`}>
+      {images.map((image, index) => (
         <img
-           
-            src={item.image}
-            alt={`Slider ${index}`}
-            
-          />
-          <p className="caption">
-            {
-              item.text
-            }
-          </p>
-        </div>  
-        ))
-      }
-
+          key={index}
+          src={image}
+          alt={`Slider ${index}`}
+          className={index === currentImage ? 'active' : ''}
+        />
+      ))}
     </div>
   );
 };

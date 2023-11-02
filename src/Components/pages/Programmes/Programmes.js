@@ -4,22 +4,22 @@ import img1 from "../../assets/img/3dprinter.jpg";
 
 const sections = [
   { 
-    title: "Marketing",
+    title: "PROGRAMME 1",
    icon: "📣",
     description: "Marketing description ...Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique corporis iusto ratione impedit aliquam quas, aliquid maxime, suscipit est placeat consequatur voluptates neque quia reiciendis velit numquam, molestias ipsa vel iste? Voluptas! "
  },
   {
-     title: "Strategy",
+     title: "PROGRAMME 2",
    icon: "♟️",
     description: "Strategy description... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique corporis iusto ratione impedit aliquam quas, aliquid maxime, suscipit est placeat consequatur voluptates neque quia reiciendis velit numquam, molestias ipsa vel iste? Voluptas!"
  },
   { 
-    title: "Technology",
+    title: "PROGRAMME 3",
    icon: "💻",
     description: "Technology description... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique corporis iusto ratione impedit aliquam quas, aliquid maxime, suscipit est placeat consequatur voluptates neque quia reiciendis velit numquam, molestias ipsa vel iste? Voluptas!" 
 },
   { 
-    title: "Workforce",
+    title: "PROGRAMME 4",
    icon: "👥",
     description: "Workforce description... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique corporis iusto ratione impedit aliquam quas, aliquid maxime, suscipit est placeat consequatur voluptates neque quia reiciendis velit numquam, molestias ipsa vel iste? Voluptas!" 
 },

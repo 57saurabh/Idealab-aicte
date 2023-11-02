@@ -5,7 +5,7 @@
     height: 85vh;
     margin-top: 8rem;
     overflow: hidden;
-    background-color:rgb(0,0,0,0.7)
+    /* background-color:rgb(0,0,0,0.7) */
 }
   
   .background-video {
@@ -14,7 +14,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     object-fit: cover;
   }
   
@@ -50,15 +50,16 @@
     padding-right: 2.5rem/* 40px */;
     margin-left: 3rem/* 48px */;
     margin-right: 3rem;
-    width: 24rem/* 384px */;
+    /* width: 24rem384px; */
+    width: 600px;
   }
 
   .hero{
-    width: 350px;
-    height: 120px;
+    width: 650px;
+    /* height: 120px; */
     margin: 1.2rem/* 24px */;
     padding: 1.8rem/* 24px */;
-    font-weight: 700;
+    font-weight: 500;
     /* background-color: #4682A9; */
     background-color: rgb(0,0,0,0.5);;
     color: white;
@@ -67,6 +68,12 @@
     border-radius: 5px;
     border: none;
     /* width: 20px; */
+}
+.hero h3{
+  margin-bottom:1rem ;
+}
+.hero p{
+  font-size:1.2rem
 }
 
 .hero:hover{
@@ -123,10 +130,10 @@
 
   @media (max-width: 1200px) {
     .Hero-container{
-        padding: 1rem/* 16px */;
+        /* padding: 1rem16px; */
         height: 90vh;
     }
-    .Hero-container video{
+    .Hero-container .background-video{
         width: 100%;
         height: 100%;
     }
@@ -150,7 +157,7 @@
       align-items: center;
         padding: 1rem;
         margin: 1rem;
-        height: 100px;
+        /* height: 100px; */
         width: 100%;
     }
     .hero{
@@ -165,6 +172,7 @@
     .Hero-container{
       /* padding: 1rem; */
         height: 90vh;
+        width: 100%;
     }
     .contentbox{
         grid-template-columns: 1fr;
@@ -192,6 +200,10 @@
         padding: 1rem;
         font-size: 1rem;
     }
+    .hero p{
+      font-size: 1rem;
+    }
+
   }
   
  

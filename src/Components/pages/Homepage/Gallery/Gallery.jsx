@@ -48,12 +48,10 @@ const Gallery = () => {
       
       
    <>
-   <div className='OurInnovation-container'>
-       <div className='heading'>
-         <h1  className="heading mb2" >Gallery</h1>
-       </div>
-    
-
+   <div className='Gallery-container'>
+         <h1  className="heading mb2" >Glimpses</h1>
+         <div style={{
+    paddingTop: '1.5rem'}}>
      <ResponsiveMasonry
                 columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
             >
@@ -71,6 +69,7 @@ const Gallery = () => {
       ))}
     </Masonry>
     </ResponsiveMasonry>
+         </div>
      </div>
 
      {/* {selectedImage && (

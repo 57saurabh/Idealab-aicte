@@ -57,11 +57,6 @@ function NavBar() {
           <li className="dropdown">
             <Link to="/team" className="dropdown-toggle">
               Team 
-              <div className="dropdown-menu" style={{color:"#4682A9"}}>
-                <Link to="#">Coordinators</Link>
-                <Link to="#">Co-Coordinator</Link>
-                
-              </div> 
             </Link>
           </li>
           <li className="dropdown">

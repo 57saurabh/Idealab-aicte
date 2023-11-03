@@ -83,6 +83,7 @@ function Footer() {
                 <AiOutlineLinkedin />
               </a>
             </span>
+            
             <span>
               <a
                 href="https://goo.gl/maps/4QNBNKG54GGsdcxA7"
@@ -95,7 +96,7 @@ function Footer() {
           </div>
           </div>
           
-
+          
           
           
           <div className="col-logo">

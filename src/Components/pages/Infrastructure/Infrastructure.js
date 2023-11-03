@@ -18,10 +18,8 @@ function Infrastructure() {
         </div>
       </div>
         <div className="bodycontainer">
-            <p className="body-text1" style={{textAlign:"center"}}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam incidunt illum reiciendis! Itaque, esse sunt accusamus sint nihil quas. Eveniet exercitationem nihil aut non rem ea corporis omnis quam, repudiandae aspernatur! Animi aspernatur, nihil quae natus perferendis nobis. Excepturi.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repudiandae ab suscipit natus voluptates officia sed facere corrupti obcaecati omnis voluptas molestiae deleniti tempora, asperiores nobis eum libero dolores reiciendis beatae veniam. Commodi facilis nam suscipit, aspernatur veritatis odit nesciunt?
-            </p>
+            <p className="body-text1" style={{textAlign:"justify"}}>
+            The infrastructure is made up of adaptable spaces that are woven together harmoniously to foster creativity and teamwork. Inside its physical walls, a variety of workspaces with adaptable furniture and state-of-the-art technology support a range of creative activities. Collaboration areas are lively hubs where interactive whiteboards and displays encourage idea-sharing and brainstorming sessions. Prototyping tools and materials are available at the Maker Spaces for hands-on creation. A special presentation space serves as a platform for seminars and idea pitches, immersing attendees in an inspiring environment. In this dynamic, forward-thinking venue, every person's innovation finds its home thanks to an inclusive environment and accessible amenities.</p>
       <div className="bodyboxcontainer">
       {ifraData.map((printer, index) => (
         <div className="bodybox" key={printer.id}>
